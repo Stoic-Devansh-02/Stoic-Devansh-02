@@ -6,7 +6,7 @@
 
 <div align="center">
 
-# 👋 Hi, I'm **Your Name**
+# 👋 Hi, I'm **Stoic**
 
 ### `Software Engineer` · `AI/ML Engineer` · `Problem Solver`
 
@@ -14,14 +14,14 @@
 
 <br/>
 
-<a href="https://github.com/YOUR_USERNAME">
-  <img src="https://img.shields.io/github/followers/YOUR_USERNAME?label=Followers&style=for-the-badge&logo=github&color=181717" />
+<a href="https://github.com/Stoic-Devansh-02">
+  <img src="https://img.shields.io/github/followers/Stoic-Devansh-02?label=Followers&style=for-the-badge&logo=github&color=181717" />
 </a>
-<a href="https://github.com/YOUR_USERNAME?tab=repositories">
-  <img src="https://img.shields.io/github/stars/YOUR_USERNAME?label=Stars&style=for-the-badge&logo=github&color=yellow" />
+<a href="https://github.com/Stoic-Devansh-02?tab=repositories">
+  <img src="https://img.shields.io/github/stars/Stoic-Devansh-02?label=Stars&style=for-the-badge&logo=github&color=yellow" />
 </a>
-<a href="https://github.com/YOUR_USERNAME">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=for-the-badge&color=blue&label=PROFILE+VIEWS" />
+<a href="https://github.com/Stoic-Devansh-02">
+  <img src="https://komarev.com/ghpvc/?username=Stoic-Devansh-02&style=for-the-badge&color=blue&label=PROFILE+VIEWS" />
 </a>
 
 </div>
@@ -31,11 +31,11 @@
 ## 🧑‍💻 About Me
 
 ```text
-🎓 Computer Science Engineering Student
-💻 Aspiring Software Engineer
+🎓 Computer Science and Engineering Student
+💻 Software Engineer
 🤖 Exploring AI / ML and Agentic AI
 🧠 Practicing Data Structures & Algorithms
-⚙️ Interested in Backend, Systems & Developer Tools
+⚙️ Interested in System Design, Backend & Developer Tools
 🚀 Building projects to turn concepts into real-world systems
 ```
 
@@ -45,9 +45,9 @@ Currently focused on:
 
 * 🧠 Data Structures & Algorithms
 * 💻 Software Engineering fundamentals
-* 🐍 Python & C++
-* 🗄️ Databases and backend development
+* 🐍 C++ & Python
 * 🐳 Docker & development tooling
+* 🗄️ Databases and backend development
 * 🤖 AI / ML / Agentic AI
 * 🏗️ System Design
 * 🚀 Building and deploying real-world projects
@@ -92,6 +92,7 @@ Currently focused on:
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
 <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
 
 </p>
 
@@ -122,12 +123,6 @@ Currently focused on:
 
 * Data Structures & Algorithms
 * Advanced Problem Solving
-* Operating Systems
-* DBMS
-* Computer Architecture
-* Object-Oriented Programming
-* Computer Networks
-* System Design
 
 </td>
 
@@ -136,13 +131,12 @@ Currently focused on:
 ### 🚀 Engineering
 
 * Backend Development
-* REST APIs
+* Docker
 * TypeScript
 * React
-* Docker
-* Cloud & DevOps
+* REST APIs
 * AI / ML
-* Agentic AI
+
 
 </td>
 </tr>
@@ -190,6 +184,10 @@ Dynamic Programming
 <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
 </a>
 
+<a href="https://neetcode.io/">
+  <img src="https://img.shields.io/badge/NeetCode-000000?style=for-the-badge&logo=neetcode&logoColor=white" />
+</a>
+
 <a href="https://codeforces.com/">
 <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" />
 </a>
@@ -209,7 +207,7 @@ Dynamic Programming
 
 <td width="50%">
 
-### 🔥 Project One
+### 🔥 SIH
 
 **Short description of the project.**
 
@@ -227,7 +225,7 @@ Deployment
 
 <td width="50%">
 
-### 🤖 Project Two
+### 🤖 Nasa Space App Challenge
 
 **Short description of the project.**
 
@@ -249,7 +247,7 @@ Docker
 
 <td width="50%">
 
-### ⚙️ Project Three
+### ⚙️ GDG Hackfest 2.0
 
 **Short description of the project.**
 
@@ -266,7 +264,7 @@ System Design
 
 <td width="50%">
 
-### 🌐 Project Four
+### 🌐 WCTM Tech Fest 
 
 **Short description of the project.**
 
@@ -287,30 +285,14 @@ Docker
 
 ---
 
-# 🏗️ Engineering Philosophy
-
-```text
-Understand → Design → Implement → Test → Optimize → Deploy
-```
-
-### I believe in:
-
-* Writing code that is understandable before making it clever.
-* Understanding the underlying concept instead of memorizing solutions.
-* Solving the problem first, then optimizing it.
-* Using Git properly and maintaining clean repositories.
-* Building projects that demonstrate actual engineering ability.
-* Learning systems from fundamentals rather than only frameworks.
-
----
 
 # 📊 GitHub Statistics
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Stoic-Devansh-02&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Stoic-Devansh-02&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 
 </div>
 
@@ -320,7 +302,7 @@ Understand → Design → Implement → Test → Optimize → Deploy
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=YOUR_USERNAME&theme=tokyonight&hide_border=true" />
+<img src="https://streak-stats.demolab.com?user=Stoic-Devansh-02&theme=tokyonight&hide_border=true" />
 
 </div>
 
@@ -330,7 +312,7 @@ Understand → Design → Implement → Test → Optimize → Deploy
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night&hide_border=true" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Stoic-Devansh-02&theme=tokyo-night&hide_border=true" />
 
 </div>
 
@@ -340,7 +322,7 @@ Understand → Design → Implement → Test → Optimize → Deploy
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
+<img src="https://raw.githubusercontent.com/Stoic-Devansh-02/Stoic-Devansh-02/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" />
 
 </div>
 
@@ -350,7 +332,7 @@ Understand → Design → Implement → Test → Optimize → Deploy
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1" />
+<img src="https://github-profile-trophy.vercel.app/?username=Stoic-Devansh-02&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1" />
 
 </div>
 
@@ -360,17 +342,17 @@ Understand → Design → Implement → Test → Optimize → Deploy
 
 ```text
 [ ] Become strong in DSA
-[ ] Solve 300+ quality DSA problems
-[ ] Build production-quality projects
+[ ] Solve 100+ quality DSA problems
 [ ] Master C++ fundamentals
-[ ] Become proficient in Python
+[ ] Build production-quality project
 [ ] Build strong backend fundamentals
+[ ] Become proficient in Python
 [ ] Learn React + TypeScript
-[ ] Learn system design
 [ ] Build AI/ML projects
 [ ] Explore Agentic AI
+[ ] Exposed to system design
 [ ] Deploy real-world applications
-[ ] Contribute to open source
+
 ```
 
 ---
@@ -397,15 +379,15 @@ Understand → Design → Implement → Test → Optimize → Deploy
 
 <p align="center">
 
-<a href="https://github.com/YOUR_USERNAME">
+<a href="https://github.com/Stoic-Devansh-02">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 </a>
 
-<a href="https://www.linkedin.com/in/YOUR_LINKEDIN/">
+<a href="https://www.linkedin.com/in/Stoic-Devansh/">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 
-<a href="mailto:YOUR_EMAIL@example.com">
+<a href="mailto:devansh.x.stoic@gmail.com">
 <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 
@@ -416,6 +398,7 @@ Understand → Design → Implement → Test → Optimize → Deploy
 <div align="center">
 
 ### 💡 *"Build. Break. Understand. Improve."*
+###  𓆩◐𓆪 *"Peace is Permanent, Patience Is Not~"*
 
 <br/>
 
