@@ -17,16 +17,11 @@ jobs:
 
     steps:
 
-      # ─────────────────────────────────────────────
       # 1. Checkout repository
-      # ─────────────────────────────────────────────
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-
-      # ─────────────────────────────────────────────
-      # 2. Generate all premium snake themes
-      # ─────────────────────────────────────────────
+      # 2. Generate two premium snake themes
       - name: Generate Phantom Snake Themes
         uses: Platane/snk@v3
         with:
@@ -34,98 +29,36 @@ jobs:
 
           outputs: |
 
-            dist/github-snake.svg
+            # 🟢 Emerald Noir
+            dist/emerald-noir.gif?color_snake=#00E5A0&color_dots=#06120F,#0B3026,#0F6049,#13A879,#00E5A0&color_background=#050807
 
-            dist/github-snake-dark.svg?palette=github-dark
-
-            # 🟣 Cyberpunk
-            dist/cyberpunk.gif?color_snake=#FF2BD6&color_dots=#0B0614,#24103A,#5B1F7A,#A62BBF,#FF2BD6&color_background=#0B0614
-
-            # 🟢 Matrix
-            dist/matrix.gif?color_snake=#39FF88&color_dots=#06100A,#0B2A16,#126B36,#20B85A,#39FF88&color_background=#06100A
-
-            # 🔵 Electric Blue
-            dist/electric-blue.gif?color_snake=#22D3EE&color_dots=#06111C,#0B2940,#0E5680,#1599C4,#22D3EE&color_background=#06111C
-
-            # 🟠 Royal Gold
-            dist/royal-gold.gif?color_snake=#F5B942&color_dots=#100C04,#30240A,#6B4D12,#B88925,#F5B942&color_background=#100C04
-
-            # 🌌 Deep Space
-            dist/deep-space.gif?color_snake=#8B7CFF&color_dots=#080817,#181642,#332B72,#5B4BD6,#8B7CFF&color_background=#080817
-
-            # 🩵 Aqua
-            dist/aqua.gif?color_snake=#20E3D2&color_dots=#061213,#0B3433,#126B68,#18A9A0,#20E3D2&color_background=#061213
-
-            # 🌅 Sunset
-            dist/sunset.gif?color_snake=#FF6B4A&color_dots=#13080A,#3A1415,#762523,#C44435,#FF6B4A&color_background=#13080A
-
-            # ⚪ Obsidian
-            dist/obsidian.gif?color_snake=#C9D1D9&color_dots=#0C0D10,#24272C,#464B52,#7A828C,#C9D1D9&color_background=#0C0D10
+            # 🌹 Arctic Rose
+            dist/arctic-rose.gif?color_snake=#FF6B9D&color_dots=#10070D,#351321,#66233D,#B83D68,#FF6B9D&color_background=#07090D
 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-
-      # ─────────────────────────────────────────────
-      # 3. Fix permissions created by Docker action
-      # ─────────────────────────────────────────────
+      # 3. Fix permissions
       - name: Fix Generated Files Permissions
         run: sudo chown -R "$(id -u):$(id -g)" dist
 
-
-      # ─────────────────────────────────────────────
       # 4. Select today's theme
-      # ─────────────────────────────────────────────
       - name: Select Daily Snake Theme
         shell: bash
         run: |
 
           DAY_OF_YEAR=$(date -u +%j)
+          THEME_INDEX=$((10#$DAY_OF_YEAR % 2))
 
-          THEME_INDEX=$((10#$DAY_OF_YEAR % 8))
+          if [ "$THEME_INDEX" -eq 0 ]; then
+            cp dist/emerald-noir.gif dist/current.gif
+            echo "Today's theme: Emerald Noir"
+          else
+            cp dist/arctic-rose.gif dist/current.gif
+            echo "Today's theme: Arctic Rose"
+          fi
 
-          case $THEME_INDEX in
-
-            0)
-              cp dist/cyberpunk.gif dist/current.gif
-              ;;
-
-            1)
-              cp dist/matrix.gif dist/current.gif
-              ;;
-
-            2)
-              cp dist/electric-blue.gif dist/current.gif
-              ;;
-
-            3)
-              cp dist/royal-gold.gif dist/current.gif
-              ;;
-
-            4)
-              cp dist/deep-space.gif dist/current.gif
-              ;;
-
-            5)
-              cp dist/aqua.gif dist/current.gif
-              ;;
-
-            6)
-              cp dist/sunset.gif dist/current.gif
-              ;;
-
-            7)
-              cp dist/obsidian.gif dist/current.gif
-              ;;
-
-          esac
-
-          echo "Today's snake theme index: $THEME_INDEX"
-
-
-      # ─────────────────────────────────────────────
-      # 5. Deploy everything to output branch
-      # ─────────────────────────────────────────────
+      # 5. Deploy to output branch
       - name: Deploy to Output Branch
         uses: peaceiris/actions-gh-pages@v3
         with:
